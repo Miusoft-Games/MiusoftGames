@@ -1,0 +1,32 @@
+.cursor {
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  z-index: 999 !important;
+}
+
+.cursor--large {
+  --size: 25px;
+  border: 0.5px solid rgb(255, 106, 0);
+  background-color: rgba(0, 0, 0, 0.233);
+  mix-blend-mode: difference;
+}
+
+.cursor--small {
+  --size: 5px;
+  background: #ff3c3c;
+  transform: translate(-50%, -50%);
+}
+
+.cursor--large,
+.cursor--small {
+    position: fixed;
+}
+
+.responsiveCursor {
+    overflow: hidden;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.miusoftgames.com/</loc>
+        <lastmod>2025-02-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Games Page -->
+    <url>
+        <loc>https://www.miusoftgames.com/pages/games</loc>
+        <lastmod>2025-02-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- About Page -->
+    <url>
+        <loc>https://www.miusoftgames.com/pages/about</loc>
+        <lastmod>2025-02-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Contact Page -->
+    <url>
+        <loc>https://www.miusoftgames.com/pages/contact</loc>
+        <lastmod>2025-02-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Privacy policy Page -->
+    <url>
+        <loc>https://www.miusoftgames.com/pages/privacy-policy</loc>
+        <lastmod>2025-02-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+</urlset>

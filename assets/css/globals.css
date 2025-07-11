@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css'); */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    /* cursor: none; */
+    /* overflow: hidden; */
+
+}
+
+::selection {
+    background-color: rgba(255, 115, 0, 0.5);
+    color: #ffffff;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.stylish-text {
+    font-family: "Kaushan Script", sans-serif !important;
+    font-size: 60px;
+    line-height: 1;
+
+    /*  padding: 40px 0; */
+
+    @media (max-width: 425px) {
+        font-size: 40px;
+    }
+
+    strong {
+        font-family: "Kaushan Script", sans-serif !important;
+        color: #FF8100;
+        font-weight: bold;
+    }
+}
+
+.stylish-font {
+    font-family: "Kaushan Script", sans-serif !important;
+}
+
+.orange-color {
+    color: #FF8100;
+}
+
+p {
+    color: #cccccc;
+}
+
+a {
+    color: #FF8100;
+}
+
+strong {
+    text-decoration: none;
+    color: #ffa03b;
+    font-weight: 500;
+}
+
+/* prevent dracg images */
+img,
+svg {
+    user-select: none;
+    pointer-events: auto;
+}
+
+img,
+svg {
+    /* For Safari */
+    -webkit-user-drag: none;
+    /* For other browsers */
+    user-drag: none;
+}
+
+
+.bg {
+    /* background-image: url('../images/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh; */
+    background-color: black;
+
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.customButton {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 5px 25px;
+    color: #ff9f29;
+    border-radius: 50px;
+    border: 2px solid #ff9f29;
+    font-size: small;
+    transition: 0.3s;
+}
+
+.customButton:hover {
+    color: #FF8100;
+    border: 2px solid #FF8100;
+    transition: 0.3s;
+    background-color: #ff80000a;
+}
